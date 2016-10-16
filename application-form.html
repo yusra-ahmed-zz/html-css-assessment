@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Skills-HTML-CSS</title>
+</head>
+<body>
+    <img style="width:25%" src="http://cdn.shopify.com/s/files/1/0704/0871/t/17/assets/logo.png?10484597655500132664">
+    <h1>Application Form</h1>
+    <h4 id="explanation">Please complete the application form below to be 
+            considered for a position at LucyandCo.</h4><br>
+        
+        <form action="/application" method="POST">
+            
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname"><br>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" min="1" id="lastname"><br>
+
+            <label for="salary">Please provide your minimum salary
+            requirement:</label>             
+            <input type="number" name="salary" id="salary"><br>            
+
+            <label for="jobtype">Specify the position for which you're 
+            applying (select one per application):</label>
+            <select name="jobtype" id="jobtype">
+                <option value="softwareengineer">Software Engineer</option>
+                <option value="qaengineer">QA Engineer</option>
+                <option value="productmanager">Product Manager</option>
+            </select><br>
+
+            <img style="width:10%" src="http://cdn.shopify.com/s/files/1/0704/0871/t/17/assets/lucyandco-newsletter.svg?10484597655500132664"><br>
+
+            <input type="submit">
+
+        </form>
+
+    
+
+
+</body>
+</html>
